@@ -21,7 +21,7 @@ Director names
 Cast names
 Plot keywords
 
-###3.1 Data Cleaning
+### 3.1 Data Cleaning
 Handle missing values by filling or removing them.
 Remove duplicates.
 Standardize text data (e.g., convert all text to lowercase).
