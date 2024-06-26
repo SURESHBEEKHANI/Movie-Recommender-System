@@ -19,6 +19,7 @@ lib64/
 parts/
 sdist/
 var/
+data/
 wheels/
 share/python-wheels/
 *.egg-info/
@@ -129,7 +130,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-data/
+
 
 # Spyder project settings
 .spyderproject
