@@ -26,9 +26,9 @@ Handle missing values by filling or removing them.
 Remove duplicates.
 Standardize text data (e.g., convert all text to lowercase).
 
-###3.2 Feature Extraction
+### 3.2 Feature Extraction
 Tokenize and normalize text features (e.g., split genres into individual terms).
 Create a combined feature for text-based similarities, such as combining genres, plot keywords, and director into a single string.
 
-###3.3 Vectorization
-Use techniques like TF-IDF (Term Frequency-Inverse Document Frequency) to convert text features into numerical vectors.
+### 3.3 Vectorization
+Use TF-IDF (Term Frequency-Inverse Document Frequency) to convert text features into numerical vectors.
