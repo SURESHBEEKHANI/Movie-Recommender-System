@@ -2,4 +2,4 @@ pandas>=1.0.0
 numpy>=1.18.0
 scikit-learn>=0.22.0
 matplotlib>=3.1.0
-NLTK 3.8.1
+NLTKf=3.8.1
