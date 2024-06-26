@@ -7,11 +7,12 @@ Content-based filtering recommends movies based on the features of the items (mo
 Extract and preprocess movie features.
 Build a content-based recommender model.
 Evaluate the performance of the model.
-2. Dataset
-2.1 Data Source
+
+### 2. Dataset
+### 2.1 Data Source
 Describe the dataset used, such as the MovieLens dataset. Mention its source, number of movies, and the type of features available (e.g., genre, director, cast, plot keywords).
 
-2.2 Data Features
+### 2.2 Data Features
 List the features extracted from the dataset. Common features include:
 
 Movie titles
@@ -19,7 +20,8 @@ Genres
 Director names
 Cast names
 Plot keywords
-3. Data Preprocessing
+
+###3. Data Preprocessing
 3.1 Data Cleaning
 Handle missing values by filling or removing them.
 Remove duplicates.
