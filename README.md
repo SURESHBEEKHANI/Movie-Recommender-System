@@ -1,9 +1,9 @@
 ## Movie Recommender System: Content-Based Filtering
 # 1. Introduction
-1.1 Overview
+### 1.1 Overview
 Content-based filtering recommends movies based on the features of the items (movies) and a profile of the user's preferences. The system analyzes movie attributes such as genre, director, cast, and plot keywords to recommend similar movies that match a user's past preferences.
 
-1.2 Objectives
+### 1.2 Objectives
 Extract and preprocess movie features.
 Build a content-based recommender model.
 Evaluate the performance of the model.
