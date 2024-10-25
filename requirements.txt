@@ -1,4 +1,13 @@
-pandas==2.0.3
-numpy==1.24.3
-nltk==3.8.1
-scikit-learn==1.2.2
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+ipykernel
+dill
+flask
+flask_cors
+lime
+gunicorn
+nltk
+#-e .

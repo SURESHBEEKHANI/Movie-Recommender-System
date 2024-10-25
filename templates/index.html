@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> <!-- Link to custom CSS -->
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Movie Recommender System</h1>
+        <form method="POST" class="mb-3">
+            <div class="form-group">
+                <label for="movie">Select a movie:</label>
+                <select class="form-control" id="movie" name="movie" required>
+                    <option value="" disabled selected>Select a movie...</option>
+                    {% for movie in movies %}
+                    <option value="{{ movie }}">{{ movie }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Show Recommendation</button>
+        </form>
+
+        {% if recommended_movie_names %}
+        <h3>Recommendations for "{{ selected_movie }}":</h3>
+        <div class="row">
+            {% for name, poster in zip(recommended_movie_names, recommended_movie_posters) %}
+            <div class="col-md-2 text-center">
+                <h5>{{ name }}</h5>
+                <img src="{{ poster }}" class="img-fluid" alt="{{ name }}">
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
